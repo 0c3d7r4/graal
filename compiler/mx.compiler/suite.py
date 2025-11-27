@@ -754,7 +754,10 @@ suite = {
         "VMACCESS",
       ],
       "useModulePath": True,
-      "maven": False,
+        "noMavenJavadoc": True,
+        "maven": {
+            "tag": ["default", "public"],
+        },
       "graalCompilerSourceEdition": "ignore",
     },
 
